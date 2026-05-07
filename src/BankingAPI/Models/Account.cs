@@ -11,7 +11,7 @@ public class Account
     public bool IsActive { get; set; } = true;
     public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 
-      // Navigation property - links to transactions
+   // Navigation property - links to transactions
    // public ICollection<Transaction> Transactions { get; set; } = new List<Transaction>();
 }
 
